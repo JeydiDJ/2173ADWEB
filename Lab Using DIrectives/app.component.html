@@ -1,0 +1,202 @@
+<div style="text-align:center">
+  <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    }
+    
+    div {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+    color: #333;
+    font-size: 28px;
+    }
+    
+    nav {
+    margin-top: 20px;
+    }
+    
+    a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+    font-size: 16px;
+    }
+    
+    a:hover {
+    color: #f1782d;
+    }
+    
+    .active {
+    color: #ff2200;
+    font-weight: bold;
+    }
+
+      /* Reset some default styles */
+body, h1, h2, h3, p, button, table, img {
+  margin: 0;
+  padding: 0;
+  }
+  
+  body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  }
+  
+  .premium-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .premium-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  }
+  
+  /* Section Styling */
+  .premium-section {
+  margin-bottom: 20px;
+  }
+  
+  .premium-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .premium-text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  }
+  
+  /* Message Styling */
+  .premium-message {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 4px;
+  }
+  
+  .premium-emoji {
+  font-size: 18px;
+  }
+  
+  /* Table Styling */
+  .premium-table-container {
+  overflow: auto;
+  }
+  
+  .premium-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  }
+  
+  .premium-table th, .premium-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  }
+  
+  /* Product Card Styling */
+  .premium-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  .premium-row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .premium-col {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  }
+  
+  .premium-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .premium-card-img {
+  width: 100%;
+  height: auto;
+  }
+  
+  .premium-card-body {
+  padding: 20px;
+  }
+  
+  .premium-text-center {
+  text-align: center;
+  }
+  
+  .premium-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  .premium-card-price {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  .premium-card-footer {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  }
+  
+  .premium-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .premium-button:hover {
+  background-color: #2980b9;
+  }
+    </style>
+  <h2> This is a {{title}} </h2>
+  <nav>
+    <a routerLink = "home" routerLinkActive = "active"> Home </a> |
+    <a routerLink = "about" > About </a> |
+    <a routerLink = "dashboard" > Dashboard </a> |
+    <a routerLink = "databinding" > DataBinding </a> |
+    <a routerLink = "directives" > Directives </a> 
+  
+  </nav>
+  <router-outlet></router-outlet>
+
+</div>
