@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark grey color for text */
+    background-color: #fff; /* White background */
+  }
+  
+  h1 {
+    font-size: 24px; /* Larger font size for headings */
+    color: #333; /* Dark grey color for headings */
+    margin-bottom: 20px; /* Add some spacing below headings */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .premium {
+    background-color: #f5f5f5; /* Light grey background for premium sections */
+    border: 2px solid #999; /* Dark grey border */
+  }
+  
+  .card-item {
+    margin-bottom: 5px;
+    font-size: 16px; /* Normal font size for card items */
+    color: #666; /* Slightly darker grey color for card items */
+  }
+  

@@ -1,0 +1,59 @@
+<h1>Midterm - Lab1</h1>
+
+<div class="card premium">
+  <h1>Text Format Pipes</h1>
+  <p class="card-item">Uppercase: {{ 'hello world' | uppercase }}</p>
+  <p class="card-item">Lowercase: {{ 'HELLO WORLD' | lowercase }}</p>
+  <p class="card-item">Titlecase: {{ 'hello world' | titlecase }}</p>
+</div>
+
+<div class="card premium">
+  <h1>Number Format Pipes</h1>
+  <p class="card-item">Decimal: {{ 3.141592 | number:'1.2-2' }}</p>
+  <p class="card-item">Decimal: {{ 12345.6789 | number:'1.2-2' }}</p>
+  <p class="card-item">Decimal: {{ 9876.54321 | number:'1.2-2' }}</p>
+  <p class="card-item">Percent: {{ 0.75 | percent }}</p>
+  <p class="card-item">Percent: {{ 0.255 | percent }}</p>
+  <p class="card-item">Percent: {{ 0.999 | percent }}</p>
+</div>
+
+<div class="card premium">
+  <h1>Date Pipes</h1>
+  <p class="card-item">Date: {{ today | date:'dd/MM/yyyy' }}</p>
+  <p class="card-item">DateFormat: {{ today | date:'MMM dd, yyyy' }}</p>
+</div>
+
+<div class="card premium">
+  <h1>Currency Pipes</h1>
+  <p class="card-item">Currency: {{ 100 | currency:'USD':'symbol' }}</p>
+  <p class="card-item">Currency: {{ 100 | currency:'EUR':'symbol' }}</p>
+  <p class="card-item">Currency: {{ 100 | currency:'GBP':'symbol' }}</p>
+</div>
+
+<div class="card premium">
+  <h1>Decimal Pipes</h1>
+  <p class="card-item">Decimal: {{ 3.141592 | number:'1.2-2' }}</p>
+  <p class="card-item">Decimal: {{ 12345.6789 | number:'1.2-2' }}</p>
+  <p class="card-item">Decimal: {{ 9876.54321 | number:'1.2-2' }}</p>
+</div>
+
+<div class="card premium">
+  <h1>JSON Pipes</h1>
+  <p class="card-item">Json: {{ object | json }}</p>
+  <p class="card-item">Json: {{ array | json }}</p>
+  <p class="card-item">Json: {{ numbers | json }}</p>
+</div>
+
+<div class="card premium">
+  <h1>Percent Pipes</h1>
+  <p class="card-item">Percent: {{ 0.75 | percent }}</p>
+  <p class="card-item">Percent: {{ 0.255 | percent }}</p>
+  <p class="card-item">Percent: {{ 0.999 | percent }}</p>
+</div>
+
+<div class="card premium">
+  <h1>Slice Pipes</h1>
+  <p class="card-item">Slice Array: {{ array | slice:1:3 }}</p>
+  <p class="card-item">Slice Words: {{ sentence | slice:1:3 }}</p>
+  <p class="card-item">Slice Characters: {{ text | slice:2:5 }}</p>
+</div>
