@@ -1,0 +1,22 @@
+<h1>{{ title }}</h1>
+
+<input type="text" [(ngModel)]="searchText" placeholder="Search">
+
+<div *ngIf="httpusers" class="table-container">
+  <table class="user-table">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Website</th>
+    </tr>
+    <tr *ngFor="let user of httpusers">
+      <td>{{ user.id }}</td>
+      <td>{{ user.name }}</td>
+      <td>{{ user.username }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.website }}</td>
+    </tr>
+  </table>
+</div>
