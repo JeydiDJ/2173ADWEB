@@ -1,0 +1,21 @@
+/* Make the text of the "Holy Angel University Library" black */
+.text-maroon-600 {
+    color: black;
+  }
+  
+  /* Make the image logo bigger */
+  .nav-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  /* Center the links horizontally */
+  .nav-links {
+    justify-content: center;
+  }
+  
+  /* Remove the grey background */
+  .navbar {
+    background-color: transparent;
+  }
+  
